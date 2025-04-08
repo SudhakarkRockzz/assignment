@@ -1,0 +1,132 @@
+While Loop with Number Series in Java
+
+A **`while` loop** is useful for generating number series when the number of iterations is not known beforehand. Below are examples of different number series generated using a `while` loop.
+
+---
+
+## **1. Print Numbers from 1 to N**
+```java
+int i = 1;
+int n = 10;
+while (i <= n) {
+    System.out.print(i + " ");
+    i++;
+}
+```
+**Output:**  
+`1 2 3 4 5 6 7 8 9 10`
+
+---
+
+## **2. Print Even Numbers up to N**
+```java
+int i = 2;
+int n = 20;
+while (i <= n) {
+    System.out.print(i + " ");
+    i += 2;  // Increment by 2 for even numbers
+}
+```
+**Output:**  
+`2 4 6 8 10 12 14 16 18 20`
+
+---
+
+## **3. Print Odd Numbers up to N**
+```java
+int i = 1;
+int n = 20;
+while (i <= n) {
+    System.out.print(i + " ");
+    i += 2;  // Increment by 2 for odd numbers
+}
+```
+**Output:**  
+`1 3 5 7 9 11 13 15 17 19`
+
+---
+
+## **4. Print Fibonacci Series (First N Terms)**
+```java
+int n = 10;
+int a = 0, b = 1;
+int count = 2;  // First two terms already known
+
+System.out.print(a + " " + b + " ");
+
+while (count < n) {
+    int c = a + b;
+    System.out.print(c + " ");
+    a = b;
+    b = c;
+    count++;
+}
+```
+**Output:**  
+`0 1 1 2 3 5 8 13 21 34`
+
+---
+
+## **5. Print Squares of Numbers (1 to N)**
+```java
+int i = 1;
+int n = 5;
+while (i <= n) {
+    System.out.print((i * i) + " ");
+    i++;
+}
+```
+**Output:**  
+`1 4 9 16 25`
+
+---
+
+## **6. Print Reverse Counting (N to 1)**
+```java
+int i = 10;
+while (i >= 1) {
+    System.out.print(i + " ");
+    i--;
+}
+```
+**Output:**  
+`10 9 8 7 6 5 4 3 2 1`
+
+---
+
+## **7. Print Geometric Series (1, 2, 4, 8, 16, ...)**
+```java
+int i = 1;
+int n = 10;
+while (i <= 100) {  // Stops when i exceeds 100
+    System.out.print(i + " ");
+    i *= 2;  // Multiply by 2 each time
+}
+```
+**Output:**  
+`1 2 4 8 16 32 64`
+
+---
+
+## **8. Print Sum of Digits of a Number**
+```java
+int num = 1234;
+int sum = 0;
+while (num > 0) {
+    sum += num % 10;  // Extract last digit
+    num /= 10;        // Remove last digit
+}
+System.out.println("Sum of digits: " + sum);
+```
+**Output:**  
+`Sum of digits: 10` (1 + 2 + 3 + 4)
+
+---
+
+## **Key Takeaways**
+- A `while` loop runs **as long as the condition is true**.
+- Useful when the **number of iterations is not fixed**.
+- Can generate **number series, reverse counting, Fibonacci, etc.**
+- Always ensure the loop has a **termination condition** to avoid infinite loops.
+
+Would you like more examples or a quiz to test your understanding? 😊
