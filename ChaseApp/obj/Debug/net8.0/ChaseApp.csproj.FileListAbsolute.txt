@@ -1,0 +1,15 @@
+/home/hplinux/Documents/assignment/ChaseApp/bin/Debug/net8.0/ChaseApp
+/home/hplinux/Documents/assignment/ChaseApp/bin/Debug/net8.0/ChaseApp.deps.json
+/home/hplinux/Documents/assignment/ChaseApp/bin/Debug/net8.0/ChaseApp.runtimeconfig.json
+/home/hplinux/Documents/assignment/ChaseApp/bin/Debug/net8.0/ChaseApp.dll
+/home/hplinux/Documents/assignment/ChaseApp/bin/Debug/net8.0/ChaseApp.pdb
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.AssemblyInfoInputs.cache
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.AssemblyInfo.cs
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.csproj.CoreCompileInputs.cache
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.sourcelink.json
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.dll
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/refint/ChaseApp.dll
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.pdb
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ChaseApp.genruntimeconfig.cache
+/home/hplinux/Documents/assignment/ChaseApp/obj/Debug/net8.0/ref/ChaseApp.dll
