@@ -1,0 +1,27 @@
+public class Bankaccount {
+String accountholder;
+int balance;
+public static void main(String[]agrs) {
+Bankaccount account1 = new Bankaccount("sudhakar", 5000);
+   account1.deposit(5000);
+}
+
+public void deposit(int amount)  {
+
+ 	this.balance = balance +amount;
+	System.out.println(balance);
+	System.out.println("Deposit Successfully "+""+ amount);
+}
+
+
+
+
+
+public Bankaccount(String accountholder,int balance) {
+
+     this.accountholder = accountholder;
+     this.balance = balance;
+	System.out.println(balance);
+	System.out.println(accountholder);
+}
+}
