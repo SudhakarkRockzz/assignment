@@ -1,0 +1,41 @@
+let balance = 0;
+let accountName = '';
+
+function createAccount() {
+  const nameInput = document.getElementById('accountName').value;
+  if (nameInput.trim() === '') {
+    alert("Please enter a valid name.");
+    return;
+  }
+  accountName = nameInput;
+  document.getElementById('welcome').innerText = `Welcome, ${accountName}!`;
+  document.getElementById('bankActions').style.display = 'block';
+}
+
+function deposit() {
+  let amount = parseFloat(document.getElementById('amount').value);
+  if (amount > 0) {
+    balance += amount;
+    updateBalance();
+    alert(`₹${amount} deposited successfully.`);
+  } else {
+    alert("Enter a valid amount.");
+  }
+}
+
+function withdraw() {
+  let amount = parseFloat(document.getElementById('amount').value);
+  if (amount > 0 && amount <= balance) {
+    balance -= amount;
+    updateBalance();
+    alert(`₹${amount} withdrawn successfully.`);
+  } else {
+    alert("Invalid amount or insufficient balance.");
+  }
+}
+
+function updateBalance() {
+  document.getElementById('balance').innerText = `Current Balance: ₹${balance}`;
+  document.getElementById('amount').value = '';
+}
+

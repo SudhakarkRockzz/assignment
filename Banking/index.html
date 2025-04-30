@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Banking App</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Simple Banking System</h1>
+
+    <div class="account-info">
+      <label>Account Holder Name:</label>
+      <input type="text" id="accountName" placeholder="Enter your name">
+      <button onclick="createAccount()">Create Account</button>
+    </div>
+
+    <div id="bankActions" style="display: none;">
+      <h3 id="welcome"></h3>
+      <p id="balance">Current Balance: ₹0</p>
+
+      <input type="number" id="amount" placeholder="Enter amount">
+      <div class="btn-group">
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script,js"></script>
+</body>
+</html>
+
