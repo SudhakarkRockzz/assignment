@@ -1,14 +1,18 @@
-package com.Example;
-
-public class Pattern1 {
-	public static void main(String[]args) {
+private static void pattern1() {
 		
-		for(int row= 1;row<=5;row++) {
-			for(int col= 1 ;col<=6-row;col++) {
-			System.out.print(col+row-1 +"  ");
-		}
+		for(int row=1; row<=9;row++)
+		{
+			for(int col=1; col<=9; col++)
+				{
+				
+					System.out.print("* ");
+				
+				}
 			System.out.println();
-	}
+		}
 		
+		
+	}
+
 }
-} 
+
